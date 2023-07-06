@@ -1,0 +1,34 @@
+import Hero from "../../assets/img/woman-sitting-desk.webp";
+
+export const SectionCinco = () => {
+  return (
+    <div className="gradient-branco grid grid-cols-1 md:grid-cols-2 text-800 lg:pe-40 shadow-2xl ">
+      <div className="grid-cols-12 md:grid-cols-6 overflow-hidden">
+        <img
+          src={Hero}
+          alt="hero-1"
+          className="md:ml-auto block h-full polygon-ivertido"
+        />
+      </div>
+      <div className="grid-cols-12 md:grid-cols-6  p-6 flex items-center">
+        <div className="flex flex-col gap-5 text-center">
+          <h1 className="text-3xl lg:text-5xl font-bold mb-1">
+            O que é esse tal de New Aligner Academy?
+          </h1>
+
+          <p className="text-lg">
+            O New Aligner Academy é nossa divisão de aprendizagem, liderada pelo
+            professor Dr. Vicente Pacheco. Assista todas as aulas online para
+            saber cada detalhe sobre o tratamento com alinhadores, e acesse de
+            onde e quantas vezes quiser sempre que surgir uma dúvida. Um
+            material completo com mais de 10 horas de conteúdo e expertise de
+            mestres em ortodontia.
+          </p>
+          <div className="w-full lg:w-4/12 flex items-start justify-start">
+            <button className="bg-slate-700"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
