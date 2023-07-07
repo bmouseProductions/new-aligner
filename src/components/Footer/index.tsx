@@ -11,7 +11,7 @@ import { BsTelephone } from "react-icons/bs";
 import Logo from "../../assets/img/new-aligner-logo.png";
 export const Footer = () => {
   return (
-    <footer className="px-3 py-10  lg:text-white flex flex-col gap-10 md:px-10 lg:px-20 xl:px-30 2xl:px-52">
+    <footer className="px-3 py-10  text-white flex flex-col gap-10 md:px-10 lg:px-20 xl:px-30 2xl:px-52">
       <div className="flex flex-col  gap-3 lg:items-end justify-between lg:flex-row">
         <div className=" flex flex-col items-start justify-center gap-3 ">
           <img src={Logo} alt="" />
@@ -29,7 +29,7 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <ul className="flex flex-col text-black gap-3 lg:items-end justify-center text-xl">
+          <ul className="flex flex-col text-white lg:text-black gap-3 lg:items-end justify-center text-xl">
             <li>
               <a
                 className="flex gap-3 items-center"
