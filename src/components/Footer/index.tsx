@@ -15,7 +15,7 @@ export const Footer = () => {
       <div className="flex flex-col  gap-3 lg:items-end justify-between lg:flex-row">
         <div className=" flex flex-col items-start justify-center gap-3 ">
           <img src={Logo} alt="" />
-          <p className="capitalize">Nossas Redes Sociais</p>
+
           <ul className="flex gap-3 items-center">
             <li>
               <FaFacebookF size={25} />
@@ -66,7 +66,7 @@ export const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="text-center text-black">
+      <p className="text-left text-white ">
         Copyright © 2022 New Aligner Desenvolvido por
         <a
           href="https://www.bmouseproductions.com/"

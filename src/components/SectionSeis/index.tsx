@@ -13,8 +13,8 @@ export const SectionSeis = () => {
   return (
     <>
       <div className="py-10 text-black">
-        <div className="text-center">
-          <h3 className="text-xl text-2xl">Veja a opinião de</h3>
+        <div className="m-auto bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black w-[50%]">
+          <h3 className="text-xl lg:text-2xl">Veja a opinião de</h3>
           <h1 className="text-2xl lg:text-4xl font-bold">
             Nossos Credenciados e seus Pacientes
           </h1>

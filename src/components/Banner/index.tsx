@@ -30,7 +30,7 @@ export const Banner = () => {
             porque você pode se sentir seguro em iniciar sua jornada conosco.
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1  flex items-center justify-center">
           <img
             src={banner}
             alt=""

@@ -8,6 +8,8 @@ import { SectionSeis } from "./components/SectionSeis";
 import { SectionSete } from "./components/SectionSete";
 import { Footer } from "./components/Footer";
 import { ButtonWhats } from "./components/ButtonWhats";
+import { Forms } from "./components/Forms";
+import Tables from "./components/Table";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <SectionCinco></SectionCinco>
       <ButtonWhats></ButtonWhats>
       <SectionSeis></SectionSeis>
+      <Forms></Forms>
+      {/*    <Tables></Tables> */}
       <SectionSete></SectionSete>
       <Footer></Footer>
     </div>

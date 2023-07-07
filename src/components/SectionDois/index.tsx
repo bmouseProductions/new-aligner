@@ -37,7 +37,7 @@ const infos = [
 export const SectionDois = () => {
   return (
     <div className="p-3 py-10  flex flex-col gap-10 items-center justify-center lg:px-52 lg:py-20">
-      <div className="text-center text-black flex flex-col gap-5 lg:w-[70%]">
+      <div className=" flex flex-col gap-5  bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black lg:w-[70%]">
         <h1 className="text-3xl lg:text-5xl ">
           O que é, e o que eu ganho me tornando um New Aligner Expert?
         </h1>
