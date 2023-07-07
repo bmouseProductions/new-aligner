@@ -7,7 +7,7 @@ export const SectionCinco = () => {
         <img
           src={Hero}
           alt="hero-1"
-          className=" block h-full polygon-ivertido w-[50%] lg:w-[100%]"
+          className=" block h-full polygon-ivertido w-[100%] lg:w-[100%]"
         />
       </div>
       <div className="grid-cols-12 md:grid-cols-6  p-6 flex items-center">
