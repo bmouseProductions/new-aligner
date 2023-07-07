@@ -37,7 +37,7 @@ export const SectionTres = () => {
         <img
           src={Hero}
           alt="hero-1"
-          className="md:ml-auto block h-full polygon"
+          className=" block h-full polygon w-[50%] lg:w-[100%]"
         />
       </div>
     </div>

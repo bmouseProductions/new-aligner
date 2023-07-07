@@ -27,7 +27,7 @@ export const Forms = () => {
   };
 
   return (
-    <div className="flex items-center justify-center py-20 ">
+    <div className=" flex items-center justify-center py-20 bg-slate-300">
       <form className="form shadow-2xl" onSubmit={handleSubmit}>
         <div>
           <h2 className="title">
