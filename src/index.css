@@ -23,8 +23,10 @@ body {
 
 @media (max-width: 640px) {
   body {
-    background-color: #004fab !important;
-    background-image: none !important;
+    background-image: url(./assets/img/bg-mobile.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
