@@ -2,10 +2,10 @@ import Hero from "../../assets/img/newaligner.webp";
 
 export const SectionTres = () => {
   return (
-    <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800  lg:ps-20 xl:ps-40">
+    <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800  lg:ps-20 2xl:ps-40">
       <div className="grid-cols-12 lg:grid-cols-6  p-6 text-left flex items-center">
         <div className="flex flex-col gap-3 xl:gap-5 ">
-          <h1 className="text-3xl md:text-3xl xl:text-5xl  font-bold mb-1">
+          <h1 className="text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl  font-bold mb-1">
             Como faço para me tornar um credenciado New Aligner?
           </h1>
 
