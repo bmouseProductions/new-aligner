@@ -2,17 +2,17 @@ import Hero from "../../assets/img/woman-sitting-desk.webp";
 
 export const SectionCinco = () => {
   return (
-    <div className="gradient-branco grid grid-cols-1 md:grid-cols-2 text-800 lg:pe-40 shadow-2xl ">
-      <div className="grid-cols-12 md:grid-cols-6 overflow-hidden">
+    <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800 lg:pe-20 xl:pe-40 shadow-2xl ">
+      <div className="grid-cols-12 lg:grid-cols-6 overflow-hidden">
         <img
           src={Hero}
           alt="hero-1"
           className=" block h-full polygon-ivertido w-[100%] lg:w-[100%]"
         />
       </div>
-      <div className="grid-cols-12 md:grid-cols-6  p-6 flex items-center">
+      <div className="grid-cols-12 lg:grid-cols-6  p-6 flex items-center">
         <div className="flex flex-col gap-5 text-center">
-          <h1 className="text-3xl lg:text-5xl font-bold mb-1">
+          <h1 className="text-3xl xl:text-5xl font-bold mb-1">
             O que é esse tal de New Aligner Academy?
           </h1>
 

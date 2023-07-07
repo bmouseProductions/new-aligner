@@ -2,14 +2,14 @@ import Hero from "../../assets/img/newaligner.webp";
 
 export const SectionTres = () => {
   return (
-    <div className="gradient-branco grid grid-cols-1 md:grid-cols-2 text-800  lg:ps-40  shadow-2xl">
-      <div className="grid-cols-12 md:grid-cols-6  p-6 text-left flex items-center">
-        <div className="flex flex-col gap-5 ">
-          <h1 className="text-3xl lg:text-5xl  font-bold mb-1">
+    <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800  lg:ps-20 xl:ps-40">
+      <div className="grid-cols-12 lg:grid-cols-6  p-6 text-left flex items-center">
+        <div className="flex flex-col gap-3 xl:gap-5 ">
+          <h1 className="text-3xl md:text-3xl xl:text-5xl  font-bold mb-1">
             Como faço para me tornar um credenciado New Aligner?
           </h1>
 
-          <ul className="flex flex-col gap-5   ">
+          <ul className="flex flex-col gap-5">
             <li>
               <h1 className="font-bold">1º Passo: Envie seus dados.</h1> Envie
               uma mensagem para a New Aligner no menu "Contato";
@@ -33,11 +33,11 @@ export const SectionTres = () => {
           </div>
         </div>
       </div>
-      <div className="grid-cols-12 md:grid-col-6 overflow-hidden">
+      <div className="grid-cols-12 lg:grid-col-6 overflow-hidden">
         <img
           src={Hero}
           alt="hero-1"
-          className=" block h-full polygon w-[100%] lg:w-[100%]"
+          className=" block h-full polygon w-[100%]  lg:w-[100%]"
         />
       </div>
     </div>

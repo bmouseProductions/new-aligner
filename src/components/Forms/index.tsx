@@ -27,8 +27,11 @@ export const Forms = () => {
   };
 
   return (
-    <div className=" flex items-center justify-center py-20 bg-slate-300">
-      <form className="form shadow-2xl" onSubmit={handleSubmit}>
+    <div className="flex items-center justify-center py-20  w-screen bg-slate-500">
+      <form
+        className="form shadow-2xl py-10 px-10 w-[100%]  md:w-[80%]  xl:w-[50%]"
+        onSubmit={handleSubmit}
+      >
         <div>
           <h2 className="title">
             O que está faltando para se tornar um credenciado?

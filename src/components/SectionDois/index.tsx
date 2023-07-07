@@ -36,23 +36,23 @@ const infos = [
 
 export const SectionDois = () => {
   return (
-    <div className="p-3 py-10  flex flex-col gap-10 items-center justify-center lg:px-52 lg:py-20">
-      <div className=" flex flex-col gap-5  bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black lg:w-[70%]">
-        <h1 className="text-3xl lg:text-5xl ">
+    <div className="p-3 py-10  flex flex-col gap-10 items-center justify-center md:p-10 md:py-10 lg:p-20  xl:px-52 xl:py-20">
+      <div className=" flex flex-col gap-5  bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black xl:w-[70%]">
+        <h1 className="text-3xl md:text-4xl xl:text-5xl ">
           O que é, e o que eu ganho me tornando um New Aligner Expert?
         </h1>
-        <p className="text-xl">
+        <p className="xl:text-xl">
           Para começar a utilizar os alinhadores New Aligner no seu dia a dia
           clínico, é necessário primeiro passar pelo nosso credenciamento que
           conta com inúmeras vantagens para você profissional, desde como lidar
           com os alinhadores em nível técnico até como abordar os pacientes que
           buscam um tratamento mais moderno.
         </p>
-        <h1 className="text-lg font-semibold border-2 rounded-full p-2 lg:w-[30%] m-auto">
+        <h1 className="text-lg font-semibold border-2 rounded-full p-2 xl:w-[30%] m-auto">
           Só o New Aligner Expert tem
         </h1>
       </div>
-      <div className="grid grid-cols-1  lg:grid-cols-3 gap-5 lg:w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:w-full">
         {infos.map((item, index) => {
           return <CardGlass key={index} title={item.title} text={item.text} />;
         })}

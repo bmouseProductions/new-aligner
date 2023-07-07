@@ -27,9 +27,9 @@ const infos = [
 
 export const SectionQuatro = () => {
   return (
-    <div className="p-3 py-10 flex flex-col gap-10 items-center justify-center  lg:px-52 lg:py-20 ">
-      <div className="text-center text-black flex flex-col gap-5 lg:w-[60%]">
-        <h1 className="text-3xl lg:text-5xl">
+    <div className="p-3 py-10 flex flex-col gap-10 items-center justify-center md:px-10 lg:px-20 lg:py-20  xl:px-52 xl:py-20 ">
+      <div className=" flex flex-col gap-5 bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black xl:w-[70%]">
+        <h1 className="text-3xl md:text-4xl xl:text-5xl">
           O que tenho direto depois de me tornar um New Aligner Expert?
         </h1>
         <p className="text-xl">
@@ -39,7 +39,7 @@ export const SectionQuatro = () => {
           disponível para você:
         </p>
       </div>
-      <div className="grid grid-cols-1  gap-5 lg:grid-cols-3 lg:w-full">
+      <div className="grid grid-cols-1  gap-5 lg:grid-cols-2 xl:grid-cols-3 xl:w-full">
         {infos.map((item, index) => {
           return <CardGlass key={index} title={item.title} text={item.text} />;
         })}

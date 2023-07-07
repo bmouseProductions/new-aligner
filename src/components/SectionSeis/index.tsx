@@ -13,9 +13,9 @@ export const SectionSeis = () => {
   return (
     <>
       <div className="py-10 text-black">
-        <div className="m-auto bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black w-[50%]">
+        <div className="m-auto bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black  md:w-[80%] lg:w-[50%]">
           <h3 className="text-xl lg:text-2xl">Veja a opinião de</h3>
-          <h1 className="text-2xl lg:text-4xl font-bold">
+          <h1 className="text-2xl md:text-3xl xl:text-4xl font-bold">
             Nossos Credenciados e seus Pacientes
           </h1>
         </div>
@@ -35,12 +35,12 @@ export const SectionSeis = () => {
               spaceBetween: 0,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 0,
             },
           }}
           modules={[Pagination]}
-          className="mySwiper w-[276px] py-10 lg:w-[60%] "
+          className="mySwiper w-[276px] md:w-[80%] py-10 lg:w-[60%] "
         >
           <SwiperSlide>
             <iframe
