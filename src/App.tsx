@@ -9,7 +9,7 @@ import { SectionSete } from "./components/SectionSete";
 import { Footer } from "./components/Footer";
 import { ButtonWhats } from "./components/ButtonWhats";
 import { Forms } from "./components/Forms";
-import Tables from "./components/Table";
+/* import Tables from "./components/Table"; */
 
 function App() {
   return (
