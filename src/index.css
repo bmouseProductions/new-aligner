@@ -266,7 +266,7 @@ nav .menu.ativo span.dois {
   background-color: rgba(255, 255, 255, 0.333);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  border-radius: 0.7rem;
+
   transition: all ease 0.3s; /* Define uma cor de fundo opaca para destacar o texto */
   padding: 30px;
   color: rgb(0, 0, 0);

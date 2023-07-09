@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 import { ButtonWhats } from "./components/ButtonWhats";
 import { Forms } from "./components/Forms";
 /* import Tables from "./components/Table"; */
+// adicionando comentario qualquer
 
 function App() {
   return (
