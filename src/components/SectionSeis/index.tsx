@@ -25,7 +25,7 @@ export const SectionSeis = () => {
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper hidden lg:block md:w-[80%] py-10 lg:w-[60%] "
+          className="mySwiper hidden lg:block md:w-[80%] py-10 lg:w-[90%] "
         >
           <SwiperSlide className="m-auto">
             <iframe
