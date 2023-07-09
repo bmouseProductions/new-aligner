@@ -1,4 +1,3 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -97,3 +96,92 @@ export const SectionSeis = () => {
     </>
   );
 };
+
+/* 
+
+
+/* // Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+import "../../index.css";
+
+import { Pagination } from "swiper/modules"; 
+
+<Swiper
+slidesPerView={3}
+spaceBetween={0}
+pagination={{
+  clickable: true,
+}}
+breakpoints={{
+  640: {
+    slidesPerView: 1,
+    spaceBetween: 0,
+  },
+  768: {
+    slidesPerView: 2,
+    spaceBetween: 0,
+  },
+  1024: {
+    slidesPerView: 3,
+    spaceBetween: 0,
+  },
+}}
+modules={[Pagination]}
+className="mySwiper w-[276px] md:w-[80%] py-10 lg:w-[60%] "
+>
+<SwiperSlide>
+  <iframe
+    className="rounded-3xl shadow-2xl"
+    width="276"
+    height="500"
+    src="https://www.youtube.com/embed/sJlabUUzBoo"
+    title="Depoimento Talita Vidal"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  ></iframe>
+</SwiperSlide>
+<SwiperSlide>
+  <iframe
+    className="rounded-3xl shadow-2xl"
+    width="276"
+    height="500"
+    src="https://www.youtube.com/embed/CxqBunNfxL0"
+    title="Depoimento Dra. Carolina Ramiro"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  ></iframe>
+</SwiperSlide>
+<SwiperSlide>
+  <iframe
+    className="rounded-3xl shadow-2xl"
+    width="276"
+    height="500"
+    src="https://www.youtube.com/embed/azEXTT2LglA"
+    title="Depoimento Dr. Theo Hackbart"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  ></iframe>
+</SwiperSlide>
+<SwiperSlide>
+  <iframe
+    className="rounded-3xl shadow-2xl"
+    width="276"
+    height="500"
+    src="https://www.youtube.com/embed/CRU98Hhi1Kg"
+    title="Depoimento Dr. Giovanne Moro"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  ></iframe>
+</SwiperSlide>
+<SwiperSlide>
+  <iframe
+    className="rounded-3xl shadow-2xl"
+    width="276"
+    height="500"
+    src="https://www.youtube.com/embed/sJlabUUzBoo"
+    title="Depoimento Talita Vidal"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  ></iframe>
+</SwiperSlide>
+</Swiper> */
