@@ -8,13 +8,15 @@ import {
 import { BsTelephone } from "react-icons/bs";
 
 import Logo from "../../assets/img/new-aligner-logo.png";
+import LogoPreto from "../../assets/img/newaligner__horz_mini1_1.png";
+
 export const Footer = () => {
   return (
     <footer className="px-3 py-10  text-white flex flex-col gap-10 md:px-10 lg:px-20 xl:px-30 2xl:px-52">
       <div className="flex flex-col  gap-3 lg:items-end justify-between lg:flex-row">
         <div className=" flex flex-col text-black  items-end lg:items-start justify-center gap-3 ">
-          <img src={Logo} alt="" />
-
+          <img src={Logo} alt="" className="hidden lg:block" />
+          <img src={LogoPreto} alt="" className="lg:hidden" />
           <ul className="flex gap-3 lg:items-center">
             <li>
               <FaFacebookF size={25} />
