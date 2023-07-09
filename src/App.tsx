@@ -1,4 +1,4 @@
-/* import { Banner } from "./components/Banner"; */
+import { Banner } from "./components/Banner";
 import { SectionUm } from "./components/SectionUm";
 import { SectionDois } from "./components/SectionDois";
 import { SectionTres } from "./components/SectionTres";
@@ -14,7 +14,7 @@ import { Forms } from "./components/Forms";
 function App() {
   return (
     <div className="">
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
       <SectionUm></SectionUm>
       <SectionDois></SectionDois>
 

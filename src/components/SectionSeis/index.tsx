@@ -13,7 +13,7 @@ export const SectionSeis = () => {
   return (
     <>
       <div className="py-10 text-black">
-        <div className="m-auto bg-white text-center bg-opacity-30 backdrop-blur-md rounded-3xl  transition-all duration-300 p-6 text-black  md:w-[80%] lg:w-[50%]">
+        <div className="m-auto bg-white text-center bg-opacity-30 backdrop-blur-md md:rounded-3xl  transition-all duration-300 p-6 text-black  md:w-[80%] lg:w-[50%]">
           <h3 className="text-xl lg:text-2xl">Veja a opinião de</h3>
           <h1 className="text-2xl md:text-3xl 2xl:text-4xl font-bold">
             Nossos Credenciados e seus Pacientes
