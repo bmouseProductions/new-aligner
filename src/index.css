@@ -344,6 +344,7 @@ nav .menu.ativo span.dois {
 
 .form div input:focus {
   border: 1px solid rgb(99 102 241);
+  zoom: 1;
 }
 
 .form div button {
