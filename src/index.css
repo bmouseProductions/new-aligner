@@ -336,6 +336,7 @@ nav .menu.ativo span.dois {
   border: 1px solid rgba(253, 253, 253, 0.363);
   border-radius: 0.375rem;
   flex: 1 1 auto;
+  zoom: 1 !important;
 }
 
 .form div input::placeholder {
@@ -344,7 +345,7 @@ nav .menu.ativo span.dois {
 
 .form div input:focus {
   border: 1px solid rgb(99 102 241);
-  zoom: 1;
+  zoom: 1 !important;
 }
 
 .form div button {
