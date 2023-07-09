@@ -7,7 +7,7 @@ export const SectionUm = () => {
       </h1>
       <div className="shadow-2xl rounded-3xl">
         <iframe
-          className="rounded-3xl shadow-2xl w-[100%] h-[200px] md:w-[500px] md:h-[350px] lg:w-[800px] lg:h-[450px]  xl:w-[560px] xl:h-[315px] 2xl:w-[760px] 2xl:h-[415px]"
+          className="rounded-3xl shadow-2xl min-w-[340px] h-[200px] md:w-[500px] md:h-[350px] lg:w-[800px] lg:h-[450px]  xl:w-[560px] xl:h-[315px] 2xl:w-[760px] 2xl:h-[415px]"
           src="https://www.youtube.com/embed/CusX3r5Lgl0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
