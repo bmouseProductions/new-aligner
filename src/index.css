@@ -369,6 +369,7 @@ nav .menu.ativo span.dois {
   }
 
   .form {
+    border-radius: 0px;
     width: 100% !important;
   }
 
