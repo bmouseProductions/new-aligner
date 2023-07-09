@@ -5,7 +5,6 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
-import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephone } from "react-icons/bs";
 
 import Logo from "../../assets/img/new-aligner-logo.png";
