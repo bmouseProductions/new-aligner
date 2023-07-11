@@ -38,7 +38,6 @@ export const SectionUm = () => {
             className="shadow-2xl border-8 border-[#004fab] shadow-[#004fab] rounded-3xl md:w-[560px] md:h-[315px]  2xl:w-[800px] 2xl:h-[420px]"
             src="https://www.youtube.com/embed/CusX3r5Lgl0"
             title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         )}
       </div>
