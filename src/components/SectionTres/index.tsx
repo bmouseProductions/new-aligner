@@ -1,31 +1,6 @@
 import Hero from "../../assets/img/newaligner.webp";
-import { useEffect, useState, useRef } from "react";
 
 export const SectionTres = () => {
-  const [isIntersecting, setIsIntersecting] = useState(false);
-
-  const observerRef = useRef(null);
-
-  useEffect(() => {
-    const observerNode = observerRef.current;
-
-    const observerOptions = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.1,
-    };
-
-    const observer = new IntersectionObserver(([entry]) => {
-      setIsIntersecting(entry.isIntersecting);
-    }, observerOptions);
-
-    if (observerNode) observer.observe(observerNode);
-
-    return () => {
-      if (observerNode) observer.unobserve(observerNode);
-    };
-  }, []);
-
   return (
     <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800  lg:ps-20 2xl:ps-40">
       <div className="grid-cols-12 lg:grid-cols-6  p-6 text-left flex items-center">
@@ -59,15 +34,11 @@ export const SectionTres = () => {
         </div>
       </div>
       <div className="grid-cols-12 lg:grid-col-6 overflow-hidden">
-        <div ref={observerRef}>
-          {isIntersecting && (
-            <img
-              src={Hero}
-              alt="hero-1"
-              className=" block w-full h-full polygon   lg:w-[100%]"
-            />
-          )}
-        </div>
+        <img
+          src={Hero}
+          alt="hero-1"
+          className=" block w-full h-full polygon   lg:w-[100%]"
+        />
       </div>
     </div>
   );

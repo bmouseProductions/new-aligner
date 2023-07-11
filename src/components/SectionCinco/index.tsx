@@ -1,43 +1,14 @@
 import Hero from "../../assets/img/woman-sitting-desk.webp";
-import { useEffect, useState, useRef } from "react";
 
 export const SectionCinco = () => {
-  const [isIntersecting, setIsIntersecting] = useState(false);
-
-  const observerRef = useRef(null);
-
-  useEffect(() => {
-    const observerNode = observerRef.current;
-
-    const observerOptions = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.1,
-    };
-
-    const observer = new IntersectionObserver(([entry]) => {
-      setIsIntersecting(entry.isIntersecting);
-    }, observerOptions);
-
-    if (observerNode) observer.observe(observerNode);
-
-    return () => {
-      if (observerNode) observer.unobserve(observerNode);
-    };
-  }, []);
-
   return (
     <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800 lg:pe-20 2xl:pe-40 shadow-2xl ">
       <div className="grid-cols-12 lg:grid-cols-6 overflow-hidden">
-        <div ref={observerRef}>
-          {isIntersecting && (
-            <img
-              src={Hero}
-              alt="hero-1"
-              className=" block h-full w-full polygon-ivertido lg:w-[100%]"
-            />
-          )}
-        </div>
+        <img
+          src={Hero}
+          alt="hero-1"
+          className=" block h-full w-full polygon-ivertido lg:w-[100%]"
+        />
       </div>
       <div className="grid-cols-12 lg:grid-cols-6  p-6 flex items-center">
         <div className="flex flex-col gap-5 text-center">

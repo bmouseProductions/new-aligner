@@ -26,7 +26,7 @@ export const SectionUm = () => {
   }, []);
 
   return (
-    <div className="gradient-branco p-10  flex flex-col items-center gap-10 shadow-2xl md:px-20 md:py-10 lg:justify-between lg:px-28 xl:px-52 xl:py-20">
+    <div className="bg-white bg-opacity-50 backdrop-blur-md  transition-all duration-300  text-black p-10  flex flex-col items-center gap-10  md:px-20 md:py-10 lg:justify-between lg:px-28 xl:px-52 xl:py-20">
       <h1 className=" text-black text-center text-4xl font-bold   md:text-5xl xl:text-6xl  2xl:text-7xl">
         Você pode ganhar até <span className="text-[#004fab]">5 vezes</span>{" "}
         mais com o <span className="text-[#004fab]">New Aligner</span>
