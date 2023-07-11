@@ -28,64 +28,54 @@ export const SectionSeis = () => {
           className="mySwiper hidden lg:block md:w-[80%] py-10 lg:w-[90%] "
         >
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/sJlabUUzBoo"
-                title="Depoimento Talita Vidal"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/sJlabUUzBoo"
+              title="Depoimento Talita Vidal"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/CxqBunNfxL0"
-                title="Depoimento Dra. Carolina Ramiro"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/CxqBunNfxL0"
+              title="Depoimento Dra. Carolina Ramiro"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl  m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/azEXTT2LglA"
-                title="Depoimento Dr. Theo Hackbart"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl  m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/azEXTT2LglA"
+              title="Depoimento Dr. Theo Hackbart"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl  m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/CRU98Hhi1Kg"
-                title="Depoimento Dr. Giovanne Moro"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl  m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/CRU98Hhi1Kg"
+              title="Depoimento Dr. Giovanne Moro"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl  m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/sJlabUUzBoo"
-                title="Depoimento Talita Vidal"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl  m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/sJlabUUzBoo"
+              title="Depoimento Talita Vidal"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
         </Swiper>
         <Swiper
@@ -98,64 +88,54 @@ export const SectionSeis = () => {
           className="mySwiper py-10 lg:hidden"
         >
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/sJlabUUzBoo"
-                title="Depoimento Talita Vidal"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/sJlabUUzBoo"
+              title="Depoimento Talita Vidal"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/CxqBunNfxL0"
-                title="Depoimento Dra. Carolina Ramiro"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/CxqBunNfxL0"
+              title="Depoimento Dra. Carolina Ramiro"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl  m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/azEXTT2LglA"
-                title="Depoimento Dr. Theo Hackbart"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl  m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/azEXTT2LglA"
+              title="Depoimento Dr. Theo Hackbart"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl  m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/CRU98Hhi1Kg"
-                title="Depoimento Dr. Giovanne Moro"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl  m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/CRU98Hhi1Kg"
+              title="Depoimento Dr. Giovanne Moro"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
           <SwiperSlide className="m-auto">
-            <LazyLoadComponent visibleByDefault>
-              <iframe
-                className="rounded-3xl shadow-2xl  m-auto"
-                width="276"
-                height="500"
-                src="https://www.youtube.com/embed/sJlabUUzBoo"
-                title="Depoimento Talita Vidal"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              ></iframe>
-            </LazyLoadComponent>
+            <iframe
+              className="rounded-3xl shadow-2xl  m-auto"
+              width="276"
+              height="500"
+              src="https://www.youtube.com/embed/sJlabUUzBoo"
+              title="Depoimento Talita Vidal"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
           </SwiperSlide>
         </Swiper>
       </div>
