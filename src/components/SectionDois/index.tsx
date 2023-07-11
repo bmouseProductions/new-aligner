@@ -37,11 +37,11 @@ const infos = [
 export const SectionDois = () => {
   return (
     <div className=" pb-10  flex flex-col gap-10 items-center justify-center">
-      <div className=" flex flex-col gap-5  bg-white text-center bg-opacity-30 backdrop-blur-md  transition-all duration-300 p-10 text-black w-full md:pb-10 lg:p-20 xl:px-30  xl:py-20 2xl:px-52 ">
-        <h1 className="text-3xl md:text-4xl xl:text-5xl ">
+      <div className=" flex flex-col gap-5  bg-white bg-opacity-50 backdrop-blur-md  transition-all duration-300 text-center  p-10 text-black w-full md:pb-10 lg:p-20 xl:px-30  xl:py-20 2xl:px-52 ">
+        <h1 className="text-3xl md:text-4xl xl:text-5xl lg:w-[70%] m-auto">
           O que é, e o que eu ganho me tornando um New Aligner Expert?
         </h1>
-        <p className="xl:text-xl">
+        <p className="xl:text-xl lg:w-[70%] m-auto">
           Para começar a utilizar os alinhadores New Aligner no seu dia a dia
           clínico, é necessário primeiro passar pelo nosso credenciamento que
           conta com inúmeras vantagens para você profissional, desde como lidar

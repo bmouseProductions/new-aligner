@@ -9,18 +9,20 @@ import { SectionSete } from "./components/SectionSete";
 import { Footer } from "./components/Footer";
 import { ButtonWhats } from "./components/ButtonWhats";
 import { Forms } from "./components/Forms";
+import { ButtonUP } from "./components/ButtonUP";
 /* import Tables from "./components/Table"; */
 // adicionando comentario qualquer
 
 function App() {
   return (
     <div className="">
-      <Banner></Banner>
       <SectionUm></SectionUm>
+      <Banner></Banner>
+
       <SectionDois></SectionDois>
 
       <SectionTres></SectionTres>
-
+      <ButtonUP></ButtonUP>
       <SectionQuatro></SectionQuatro>
       <SectionCinco></SectionCinco>
       <ButtonWhats></ButtonWhats>

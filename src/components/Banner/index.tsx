@@ -1,10 +1,8 @@
 import banner from "../../assets/img/img_sobre_site_new-_1_.webp";
-import Header from "../Header";
 
 export const Banner = () => {
   return (
-    <div className="bg-white bg-opacity-50 backdrop-blur-md  transition-all duration-300  text-black flex flex-col w-full h-full lg:h-screen p-3 lg:justify-center md:p-10 xl:p-20 2xl:px-52">
-      <Header></Header>
+    <div className="bg-white bg-opacity-50 backdrop-blur-md  transition-all duration-300  text-black flex flex-col w-full h-full  p-3 lg:justify-center md:p-10 xl:p-20 2xl:px-52">
       <div className="flex items-center flex-col lg:flex-row lg:justify-between mt-10 lg:mt-20 gap-14">
         <div className="flex flex-col text-black gap-5 flex-1 px-3">
           <h1 className="text-3xl lg:text-4xl 2xl:text-6xl text-[#004fab]">
