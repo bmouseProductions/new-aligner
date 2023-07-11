@@ -5,9 +5,9 @@ export const SectionUm = () => {
         Você pode ganhar até <span className="text-[#004fab]">5 vezes</span>{" "}
         mais com o <span className="text-[#004fab]">New Aligner</span>
       </h1>
-      <div className="shadow-2xl rounded-3xl">
+      <div className="">
         <iframe
-          className="rounded-3xl shadow-2xl min-w-[340px] h-[200px] md:w-[500px] md:h-[350px] lg:w-[800px] lg:h-[450px]  xl:w-[560px] xl:h-[315px] 2xl:w-[760px] 2xl:h-[415px]"
+          className="shadow-2xl border-8 border-[#004fab] shadow-[#004fab] rounded-3xl   min-w-[340px] h-[200px] md:w-[500px] md:h-[350px] lg:w-[800px] lg:h-[450px]  xl:w-[560px] xl:h-[315px] 2xl:w-[760px] 2xl:h-[415px]"
           src="https://www.youtube.com/embed/CusX3r5Lgl0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

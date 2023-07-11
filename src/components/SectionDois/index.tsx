@@ -36,8 +36,8 @@ const infos = [
 
 export const SectionDois = () => {
   return (
-    <div className="p-3 py-10  flex flex-col gap-10 items-center justify-center md:p-10 md:py-10 lg:p-20 xl:px-30  xl:py-20 2xl:px-52 ">
-      <div className=" flex flex-col gap-5  bg-white text-center bg-opacity-30 backdrop-blur-md lg:rounded-3xl  transition-all duration-300 p-6 text-black xl:w-[70%]">
+    <div className=" pb-10  flex flex-col gap-10 items-center justify-center">
+      <div className=" flex flex-col gap-5  bg-white text-center bg-opacity-30 backdrop-blur-md  transition-all duration-300 p-10 text-black w-full md:pb-10 lg:p-20 xl:px-30  xl:py-20 2xl:px-52 ">
         <h1 className="text-3xl md:text-4xl xl:text-5xl ">
           O que é, e o que eu ganho me tornando um New Aligner Expert?
         </h1>
@@ -48,11 +48,11 @@ export const SectionDois = () => {
           com os alinhadores em nível técnico até como abordar os pacientes que
           buscam um tratamento mais moderno.
         </p>
-        <h1 className="text-lg font-semibold border-2 rounded-full p-2 2xl:w-[30%] m-auto">
+        <h1 className="text-base font-semibold border-2 rounded-full p-3 2xl:w-[30%] m-auto">
           Só o New Aligner Expert tem
         </h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 ">
+      <div className="p-3 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5 ">
         {infos.map((item, index) => {
           return <CardGlass key={index} title={item.title} text={item.text} />;
         })}

@@ -241,7 +241,7 @@ nav .menu.ativo span.dois {
 }
 
 .fundo-section-sete {
-  background-image: url("https://newaligner.com.br/wp-content/uploads/2022/05/empresa-nacional.png");
+  background-image: url(../src/assets/img/empresa-nacional.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -277,7 +277,7 @@ nav .menu.ativo span.dois {
 }
 
 .gradient-text {
-  background-image: linear-gradient(120deg, #4c93b5 0%, #004fab 100%);
+  background-image: linear-gradient(135deg, #4c93b5 10%, #004fab 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

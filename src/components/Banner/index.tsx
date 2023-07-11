@@ -1,13 +1,13 @@
-import banner from "../../assets/img/img_sobre_site_new.png";
+import banner from "../../assets/img/img_sobre_site_new-_1_.webp";
 import Header from "../Header";
 
 export const Banner = () => {
   return (
-    <div className="flex flex-col lg:h-screen lg:justify-evenly ">
+    <div className="bg-white bg-opacity-50 backdrop-blur-md  transition-all duration-300  text-black flex flex-col w-full h-full lg:h-screen p-3 lg:justify-center md:p-10 xl:p-20 2xl:px-52">
       <Header></Header>
-      <div className="flex items-center flex-col lg:flex-row lg:justify-between ">
-        <div className="destaque  flex flex-col text-black gap-5 flex-1 px-3  2xl:px-52 lg:rounded-e-2xl">
-          <h1 className="text-3xl lg:text-4xl 2xl:text-6xl">
+      <div className="flex items-center flex-col lg:flex-row lg:justify-between mt-10 lg:mt-20 gap-14">
+        <div className="flex flex-col text-black gap-5 flex-1 px-3">
+          <h1 className="text-3xl lg:text-4xl 2xl:text-6xl text-[#004fab]">
             Ser um credenciado é ser New Aligner Expert!
           </h1>
           <p className="text-lg 2xl:text-xl">
@@ -30,14 +30,12 @@ export const Banner = () => {
             porque você pode se sentir seguro em iniciar sua jornada conosco.
           </p>
         </div>
-        <div className="flex-1  flex items-center justify-center">
-          <img
-            src={banner}
-            alt=""
-            className="w-[60%] m-auto lg:m-0 lg:w-[50%] "
-          />
+        <div className=" mt-10 lg:mt-0 flex items-center justify-center lg:justify-end">
+          <img src={banner} alt="" className="w-[60%] lg:w-full" />
         </div>
       </div>
     </div>
   );
 };
+
+/* w-[60%] m-auto lg:m-0 lg:w-[50%]  */
