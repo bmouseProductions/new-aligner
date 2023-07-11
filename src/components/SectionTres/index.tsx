@@ -1,11 +1,37 @@
+import React, { useEffect, useRef } from "react";
 import Hero from "../../assets/img/newaligner.webp";
 
-export const SectionTres = () => {
+export const SectionTres: React.FC = () => {
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const img = entry.target as HTMLImageElement;
+          img.src = img.dataset.src!;
+          observer.unobserve(img);
+        }
+      });
+    });
+
+    const currentImgRef = imgRef.current;
+    if (currentImgRef) {
+      observer.observe(currentImgRef);
+    }
+
+    return () => {
+      if (currentImgRef) {
+        observer.unobserve(currentImgRef);
+      }
+    };
+  }, []);
+
   return (
-    <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800  lg:ps-20 2xl:ps-40">
-      <div className="grid-cols-12 lg:grid-cols-6  p-6 text-left flex items-center">
-        <div className="flex flex-col gap-3 xl:gap-5 ">
-          <h1 className="text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl  font-bold mb-1">
+    <div className="gradient-branco grid grid-cols-1 lg:grid-cols-2 text-800 lg:ps-20 2xl:ps-40">
+      <div className="grid-cols-12 lg:grid-cols-6 p-6 text-left flex items-center">
+        <div className="flex flex-col gap-3 xl:gap-5">
+          <h1 className="text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold mb-1">
             Como faço para me tornar um credenciado New Aligner?
           </h1>
 
@@ -15,17 +41,17 @@ export const SectionTres = () => {
               uma mensagem para a New Aligner no menu "Contato";
             </li>
             <li>
-              <h1 className="font-bold">2º Passo:Pagamento</h1> Após se inteirar
-              de 100% dos detalhes e enviar seus dados, realize o pagamento em
-              nossa plataforma;
-            </li>{" "}
+              <h1 className="font-bold">2º Passo: Pagamento</h1> Após se
+              inteirar de 100% dos detalhes e enviar seus dados, realize o
+              pagamento em nossa plataforma;
+            </li>
             <li>
               <h1 className="font-bold">
                 Agora você é um New Aligner Expert!{" "}
-              </h1>
+              </h1>{" "}
               Agora você faz parte do grupo de profissionais que decidiram
               revolucionar suas rotinas clínicas com a Ortodontia Digital. O
-              acesso às aulas aulas online já estará liberado para você.
+              acesso às aulas online já estará liberado para você.
             </li>
           </ul>
           <div className="w-full lg:w-4/12 flex items-start justify-start ">
@@ -35,9 +61,11 @@ export const SectionTres = () => {
       </div>
       <div className="grid-cols-12 lg:grid-col-6 overflow-hidden">
         <img
-          src={Hero}
+          ref={imgRef}
+          data-src={Hero}
           alt="hero-1"
-          className=" block w-full h-full polygon   lg:w-[100%]"
+          className="block w-full h-full polygon lg:w-[100%]"
+          loading="lazy"
         />
       </div>
     </div>
