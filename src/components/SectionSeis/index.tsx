@@ -57,7 +57,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/sJlabUUzBoo"
                   title="Depoimento Talita Vidal"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -71,7 +70,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/CxqBunNfxL0"
                   title="Depoimento Dra. Carolina Ramiro"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -85,7 +83,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/azEXTT2LglA"
                   title="Depoimento Dr. Theo Hackbart"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -99,7 +96,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/CRU98Hhi1Kg"
                   title="Depoimento Dr. Giovanne Moro"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -113,7 +109,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/sJlabUUzBoo"
                   title="Depoimento Talita Vidal"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -137,7 +132,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/sJlabUUzBoo"
                   title="Depoimento Talita Vidal"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -151,7 +145,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/CxqBunNfxL0"
                   title="Depoimento Dra. Carolina Ramiro"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -165,7 +158,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/azEXTT2LglA"
                   title="Depoimento Dr. Theo Hackbart"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -179,7 +171,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/CRU98Hhi1Kg"
                   title="Depoimento Dr. Giovanne Moro"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
@@ -193,7 +184,6 @@ export const SectionSeis = () => {
                   height="500"
                   src="https://www.youtube.com/embed/sJlabUUzBoo"
                   title="Depoimento Talita Vidal"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
               )}
             </div>
