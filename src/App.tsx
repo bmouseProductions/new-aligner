@@ -15,7 +15,7 @@ import { ButtonUP } from "./components/ButtonUP";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-[#ffffff] bg-opacity-50 backdrop-blur-sm  transition-all duration-300">
       <SectionUm></SectionUm>
       <Banner></Banner>
 

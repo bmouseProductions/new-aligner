@@ -29,7 +29,7 @@ const infos = [
 export const SectionQuatro = () => {
   return (
     <div className=" pb-10 flex flex-col gap-10 items-center justify-center ">
-      <div className=" flex flex-col gap-5 bg-white text-center bg-opacity-30 backdrop-blur-md  transition-all duration-300 p-10 w-full text-black md:pb-10 lg:px-20 lg:py-20  2xl:px-52 2xl:py-20 ">
+      <div className=" flex flex-col gap-5 p-10 w-full text-center text-black md:pb-10 lg:px-20 lg:py-20  2xl:px-52 2xl:py-20 ">
         <h1 className="text-3xl md:text-4xl xl:text-5xl">
           O que tenho direto depois de me tornar um New Aligner Expert?
         </h1>

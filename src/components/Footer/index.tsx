@@ -12,7 +12,7 @@ import LogoPreto from "../../assets/img/newaligner__horz_mini1_1.webp";
 
 export const Footer = () => {
   return (
-    <footer className="px-3 py-10  flex flex-col gap-10 md:px-10 lg:px-20 xl:px-30 2xl:px-52  bg-white bg-opacity-30 backdrop-blur-md  transition-all duration-300 p-6 text-black">
+    <footer className="px-3 py-10  flex flex-col gap-10 md:px-10 lg:px-20 xl:px-30 2xl:px-52 p-6 text-black">
       <div className="flex flex-col  gap-3 lg:items-end justify-between lg:flex-row">
         <div className=" flex flex-col text-black items-start justify-center gap-3 ">
           <img src={Logo} alt="" className="hidden w-[200px] lg:block" />
