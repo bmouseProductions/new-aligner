@@ -1,4 +1,5 @@
 import Hero from "../../assets/img/woman-sitting-desk.webp";
+import { Button } from "../Button";
 
 export const SectionCinco = () => {
   return (
@@ -24,8 +25,8 @@ export const SectionCinco = () => {
             material completo com mais de 10 horas de conteúdo e expertise de
             mestres em ortodontia.
           </p>
-          <div className="w-full lg:w-4/12 flex items-start justify-start">
-            <button className="bg-slate-700"></button>
+          <div className="w-full flex items-center justify-center">
+            <Button></Button>
           </div>
         </div>
       </div>

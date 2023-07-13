@@ -1,4 +1,5 @@
 import Hero from "../../assets/img/newaligner.webp";
+import { Button } from "../Button";
 
 export const SectionTres = () => {
   return (
@@ -29,7 +30,7 @@ export const SectionTres = () => {
             </li>
           </ul>
           <div className="w-full lg:w-4/12 flex items-start justify-start ">
-            <button className="bg-slate-700"></button>
+            <Button></Button>
           </div>
         </div>
       </div>

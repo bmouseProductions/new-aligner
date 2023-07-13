@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "../Button";
 
 interface FormData {
   name: string;
@@ -27,7 +28,7 @@ export const Forms = () => {
   };
 
   return (
-    <div className="flex items-center justify-center py-20 ">
+    <div className="flex flex-col gap-10 items-center justify-center py-20 ">
       <form
         className="form shadow-2xl  p-4 w-[100%] md:p-10  md:w-[80%] xl:w-[70%] 2xl:w-[50%]"
         onSubmit={handleSubmit}
@@ -77,6 +78,9 @@ export const Forms = () => {
           </p>
         </div>
       </form>
+      <div>
+        <Button></Button>
+      </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import { CardGlass } from "../CardGlass";
 
 const infos = [
@@ -44,6 +45,7 @@ export const SectionQuatro = () => {
           return <CardGlass key={index} title={item.title} text={item.text} />;
         })}
       </div>
+      <Button></Button>
     </div>
   );
 };

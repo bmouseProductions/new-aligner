@@ -238,3 +238,51 @@ body {
     width: 100% !important;
   }
 }
+
+.button-principal {
+  background-color: #004fab;
+  border: none;
+  padding: 5px;
+  position: relative;
+  width: 16em;
+  height: 3em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+}
+
+.button-principal a {
+  position: absolute;
+  top: 0.7em;
+  left: 25%;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.button-principal svg {
+  position: absolute;
+  top: 0.9em;
+  right: 1em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: #fff;
+}
+
+.button-principal:hover a {
+  left: 20%;
+  color: #fff;
+}
+
+.button-principal:hover svg {
+  opacity: 1;
+}
+
+.button-principal:hover {
+  background-color: #25d366;
+  border: none;
+}
