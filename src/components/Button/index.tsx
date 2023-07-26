@@ -6,7 +6,7 @@ export const Button = () => {
         target="_blank"
         className="text-white"
       >
-        Agende sua consulta
+        Quero me credenciar
       </a>
       <svg
         xmlns="http://www.w3.org/2000/svg"

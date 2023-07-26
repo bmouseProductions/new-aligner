@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 import { ButtonWhats } from "./components/ButtonWhats";
 import { Forms } from "./components/Forms";
 import { ButtonUP } from "./components/ButtonUP";
+import { SectionStart } from "./components/SectionStart";
 /* import Tables from "./components/Table"; */
 // adicionando comentario qualquer
 
@@ -24,6 +25,7 @@ function App() {
       <SectionTres></SectionTres>
       <ButtonUP></ButtonUP>
       <SectionQuatro></SectionQuatro>
+      <SectionStart></SectionStart>
       <SectionCinco></SectionCinco>
       <ButtonWhats></ButtonWhats>
       <SectionSeis></SectionSeis>
