@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "../Button";
 
 interface FormData {
   name: string;
@@ -78,9 +77,6 @@ export const Forms = () => {
           </p>
         </div>
       </form>
-      <div>
-        <Button></Button>
-      </div>
     </div>
   );
 };

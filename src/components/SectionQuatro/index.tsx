@@ -3,11 +3,6 @@ import { CardGlass } from "../CardGlass";
 
 const infos = [
   {
-    title: "Material para ponto de venda",
-    text: "Material PDV (ponto de venda) para a recepção da sua clínica ou consultório: display porta flyers, flyers informativos e apresentação de vendas. Disponível no Kit Marketing.",
-  },
-
-  {
     title: "Acesso à New Aligner Academy",
     text: "10h+ de conteúdo online para acessar a hora que quiser. Você também conta com lives semanais repleto de dicas clínicas importantes. Disponível no Kit Marketing.",
   },
@@ -31,12 +26,10 @@ export const SectionQuatro = () => {
           O que tenho direto depois de me tornar um New Aligner Expert?
         </h1>
         <p className="text-xl">
-          Ao realizar a compra do seu primeiro caso, você ganha o Kit Marketing,
-          que tem tudo que você precisa para iniciar sua jornada. Confira o que
-          estará disponível para você:
+          Confira o que estará disponível para você iniciar sua jornada:
         </p>
       </div>
-      <div className="p-3 grid grid-cols-1  gap-5 lg:grid-cols-2 2xl:grid-cols-4 ">
+      <div className="p-3 grid grid-cols-1  gap-5 lg:grid-cols-3 2xl:grid-cols-3 ">
         {infos.map((item, index) => {
           return <CardGlass key={index} title={item.title} text={item.text} />;
         })}
