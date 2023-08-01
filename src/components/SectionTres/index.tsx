@@ -29,7 +29,7 @@ export const SectionTres = () => {
               acesso às aulas aulas online já estará liberado para você.
             </li>
           </ul>
-          <div className="w-full lg:w-4/12 flex items-start justify-start ">
+          <div className="w-full 2xl:w-4/12 flex items-start justify-start ">
             <Button></Button>
           </div>
         </div>
