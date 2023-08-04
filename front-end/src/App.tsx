@@ -20,17 +20,15 @@ import { Forms } from "./components/Forms";
 function App() {
   return (
     <div className="bg-[#ffffff] bg-opacity-50 backdrop-blur-sm  transition-all duration-300">
+      <ButtonWhats></ButtonWhats>
+      <ButtonUP></ButtonUP>
       <SectionUm></SectionUm>
       <Banner></Banner>
-
       <SectionDois></SectionDois>
-
       <SectionTres></SectionTres>
-      <ButtonUP></ButtonUP>
       <SectionQuatro></SectionQuatro>
       {/*    <SectionStart></SectionStart> */}
       <SectionCinco></SectionCinco>
-      <ButtonWhats></ButtonWhats>
       <SectionSeis></SectionSeis>
       <Forms></Forms>
       {/*    <Tables></Tables> */}

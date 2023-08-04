@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 import { FormEvent, ChangeEvent, useState } from "react";
 import { enviarEmail } from "../../api";
+/* import { BiSolidSend } from "react-icons/bi"; */
 
 interface FormData {
   nome: string;
@@ -9,13 +10,19 @@ interface FormData {
 }
 
 export const Forms = () => {
+  const initialState = {
+    nome: "",
+    telefone: "",
+    email: "",
+  };
+
   const [formData, setFormData] = useState<FormData>({
     nome: "",
     telefone: "",
     email: "",
   });
 
-  const [isSending, setIsSending] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { id, value } = e.target;
@@ -28,14 +35,17 @@ export const Forms = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    setIsLoading(true); // Inicia a animação de loading
+
     try {
-      setIsSending(true);
       await enviarEmail(formData);
+      alert("Enviado com sucesso!");
+      setFormData(initialState);
     } catch (error) {
       console.error("Something is wrong", error);
-    } finally {
-      setIsSending(false);
     }
+
+    setIsLoading(false); // Finaliza a animação de loading após o
   };
 
   return (
@@ -59,6 +69,7 @@ export const Forms = () => {
             className="input"
             onChange={handleChange}
             value={formData.nome}
+            required
           />
           <input
             placeholder="Seu melhor e-mail"
@@ -67,6 +78,7 @@ export const Forms = () => {
             className="input"
             onChange={handleChange}
             value={formData.email}
+            required
           />
           <input
             placeholder="Seu número de celular"
@@ -75,9 +87,10 @@ export const Forms = () => {
             className="input"
             onChange={handleChange}
             value={formData.telefone}
+            required
           />
-          <button type="submit" className="button" disabled={isSending}>
-            Eu quero me credenciar
+          <button type="submit" className="button" disabled={isLoading}>
+            {isLoading ? "Enviando..." : "EU QUERO ME CREDENCIAR"}
           </button>
           <p className="description">
             Fique tranquilo, a New Aligner tem compromisso com os seus dados e
